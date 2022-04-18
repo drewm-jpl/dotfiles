@@ -103,3 +103,8 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+. /usr/local/opt/asdf/libexec/asdf.sh
+
+source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+PS1='$(kube_ps1)'$PS1
