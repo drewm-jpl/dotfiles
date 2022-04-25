@@ -129,6 +129,8 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
 # switch group using `,` and `.`
 zstyle ':fzf-tab:*' switch-group ',' '.'
 
+#zstyle ':fzf-tab:*' print-query alt-enter
+
 source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
 PS1='$(kube_ps1)'$PS1
 
@@ -140,3 +142,12 @@ export AWS_PROFILE=saml
 # Set global history as the default.
 # https://github.com/jimhester/per-directory-history/issues/3
 # _per-directory-history-set-global-history && $_per_directory_history_is_global = true
+
+# Combine fd with fzf
+export FZF_DEFAULT_COMMAND="fd . $HOME"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd -t d . $HOME"
+
+# For macOS
+# more infor here: https://github.com/junegunn/fzf/issues/164
+bindkey "ç" fzf-cd-widget
