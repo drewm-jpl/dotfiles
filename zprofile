@@ -11,5 +11,8 @@ export VIRTUALENVWRAPPER_PYTHON=/opt/homebrew/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/opt/homebrew/bin/virtualenv
 source /opt/homebrew/bin/virtualenvwrapper.sh
 
+# export EDITOR="code --wait"
+# export VISUAL="$EDITOR"
+
 #alias python='python3'
 #alias pip='pip3'

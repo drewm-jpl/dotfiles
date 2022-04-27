@@ -81,6 +81,7 @@ plugins=(
   docker
   kubectl
   terraform
+  python
   pyenv
   virtualenv
   virtualenvwrapper
@@ -131,11 +132,13 @@ zstyle ':fzf-tab:*' switch-group ',' '.'
 
 #zstyle ':fzf-tab:*' print-query alt-enter
 
+# Combine fd with fzf
+export FZF_DEFAULT_COMMAND="fd . $HOME"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd -t d . $HOME"
+
 source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
 PS1='$(kube_ps1)'$PS1
-
-# For SWOT SDS AWS use
-export AWS_PROFILE=saml
 
 # . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
@@ -143,11 +146,9 @@ export AWS_PROFILE=saml
 # https://github.com/jimhester/per-directory-history/issues/3
 # _per-directory-history-set-global-history && $_per_directory_history_is_global = true
 
-# Combine fd with fzf
-export FZF_DEFAULT_COMMAND="fd . $HOME"
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="fd -t d . $HOME"
-
 # For macOS
-# more infor here: https://github.com/junegunn/fzf/issues/164
+# more info here: https://github.com/junegunn/fzf/issues/164
 bindkey "ç" fzf-cd-widget
+
+# For SWOT SDS AWS use
+export AWS_PROFILE=saml

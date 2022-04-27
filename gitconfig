@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Drew Meyers
+	email = drew.meyers@jpl.nasa.gov
+[commit]
+	template = /Users/drewm/.git-commit-template.txt
+[core]
+	editor = code --wait
