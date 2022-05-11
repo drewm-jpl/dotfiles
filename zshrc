@@ -118,6 +118,8 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export FZF_DEFAULT_OPTS="--bind 'ctrl-y:execute-silent(echo {+} | pbcopy)'"
+
 # fzf-tab
 # disable sort when completing `git checkout`
 zstyle ':completion:*:git-checkout:*' sort false
