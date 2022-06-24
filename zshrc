@@ -158,3 +158,5 @@ export AWS_PROFILE=saml
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 chruby ruby-3.1.2
+
+alias aws-login="~/.virtualenvs/helper_scripts/bin/python ~/Documents/projects/398G/SWOT/helper_scripts/aws_login.py"
