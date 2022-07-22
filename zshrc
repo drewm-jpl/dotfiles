@@ -160,3 +160,8 @@ source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 chruby ruby-3.1.2
 
 alias aws-login="~/.virtualenvs/helper_scripts/bin/python ~/Documents/projects/398G/SWOT/helper_scripts/aws_login.py"
+
+# Command line history size
+# Saves 10 million lines in memory and in the bash history file.
+export HISTFILESIZE=1000000
+export HISTSIZE=1000000

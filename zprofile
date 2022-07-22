@@ -16,7 +16,3 @@ source /opt/homebrew/bin/virtualenvwrapper.sh
 
 #alias python='python3'
 #alias pip='pip3'
-
-# Command line history size
-# Saves 10 million lines in memory and in the bash history file.
-HISTSIZE=10000000
