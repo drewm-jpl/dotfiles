@@ -6,4 +6,4 @@
 	template = /Users/drewm/.git-commit-template.txt
 [core]
 	editor = code --wait
-	excludesfile = /Users/drewm/.gitignore_global
+	excludesfile = /Users/drewm/git/dotfiles/gitignore_global

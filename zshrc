@@ -165,3 +165,12 @@ alias aws-login="~/.virtualenvs/helper_scripts/bin/python ~/Documents/projects/3
 # Saves 10 million lines in memory and in the bash history file.
 export HISTFILESIZE=1000000
 export HISTSIZE=1000000
+
+# To  make direnv quiet down and not output all the environment variables being sourced,
+# set the DIRENV_LOG_FORMAT environment variable to an empty string
+export DIRENV_LOG_FORMAT=
+
+export GOPATH=$HOME/go
+export GOROOT=export GOROOT="$(brew --prefix golang)/libexec"
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
