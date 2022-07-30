@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "5b5cca91d9821932",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f62c58da83ae708",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/1 SWOT/20-29 Documentation/22 Development Tasks/1.22.08 Support empty PGE output files.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "3f62c58da83ae708",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/1 SWOT/20-29 Documentation/22 Development Tasks/1.22.08 Support empty PGE output files.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":0},\"to\":{\"line\":37,\"ch\":0}},\"scroll\":0}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9fed5a7f66156037",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/0 Meta/00-09 Knowledge Management (KM)/01 Processes/0.01.01 Setting up a New Work Machine.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "9fed5a7f66156037",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/0 Meta/00-09 Knowledge Management (KM)/01 Processes/0.01.01 Setting up a New Work Machine.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":35},\"to\":{\"line\":46,\"ch\":35}},\"scroll\":46.53123395768713}"
+            },
+            {
+              "leaf": "9fed5a7f66156037",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/1 SWOT/20-29 Documentation/22 Development Tasks/1.22.09 Update the CloudWatch dashboard to monitor the disk space on Metrics, Factotum, and GRQ.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":1.8687482559144295}"
+            }
+          ]
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1889861fcd0e82a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "0240e87de812b33a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60ff7be6b3f35304",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "38a01a5389fc006a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line(index)",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "7995351fd90f388f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 285.0019226074219,
+    "collapsed": true
+  },
+  "right": {
+    "id": "77904a1454991e2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f221ee2ca80804f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4e485bd98f8b7e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/0 Meta/00-09 Knowledge Management (KM)/01 Processes/0.01.01 Setting up a New Work Machine.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "561b63cacc13405c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/0 Meta/00-09 Knowledge Management (KM)/01 Processes/0.01.01 Setting up a New Work Machine.md"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "c2399f7f1345e7c1",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "1d98f7e94fd1e225",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.9475402832031,
+    "collapsed": true
+  },
+  "active": "9fed5a7f66156037",
+  "lastOpenFiles": [
+    "docs/1 SWOT/20-29 Documentation/22 Development Tasks/1.22.09 Update the CloudWatch dashboard to monitor the disk space on Metrics, Factotum, and GRQ.md",
+    "docs/1 SWOT/20-29 Documentation/22 Development Tasks/1.22.08 Support empty PGE output files.md",
+    "docs/2 Unity/10-19 Meetings/12 One-off Meetings/2.12.01 U-CS x U-SPS Hackathon.md",
+    "docs/1 SWOT/20-29 Documentation/22 Development Tasks/1.22.05 Add Worker Metrics Broken Down by Queue or Job Type to Kibana Worker Dashboard.md",
+    "docs/1 SWOT/20-29 Documentation/23 Testing Tasks/1.23.04 Running a Smoke Test Manually.md",
+    "docs/2 Unity/20-29 Documentation/24 Deployment Tasks/2.24.01 Deploy HySDS Containers to Temporary Kubernetes Cluster on JPL AWS.md",
+    "docs/1 SWOT/20-29 Documentation/23 Testing Tasks/1.23.00 Debugging a PGE Verification and PCM Cluster Hot-fixes.md",
+    "docs/1 SWOT/20-29 Documentation/22 Development Tasks/1.22.06 Capture SPOT launch & termination events in CloudTrail.md",
+    "docs/1 SWOT/20-29 Documentation/22 Development Tasks/1.22.07 SWOT SDS Wiki - Instructions for Creating and Importing Custom Kibana Dashboards.md",
+    "docs/1 SWOT/20-29 Documentation/22 Development Tasks/1.22.01 Inject Spot Terminations into E2E Tests.md"
+  ]
+}

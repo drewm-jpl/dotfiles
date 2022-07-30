@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 20,
+  "translucency": true,
+  "cssTheme": "Night Owl",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "headers"
+  ],
+  "interfaceFontFamily": "Fira Mono for Powerline",
+  "textFontFamily": "Fira Mono for Powerline",
+  "monospaceFontFamily": "Fira Mono for Powerline"
+}
